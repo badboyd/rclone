@@ -2,7 +2,6 @@ module github.com/rclone/rclone
 
 require (
 	bazil.org/fuse v0.0.0-20180421153158-65cc252bf669
-	cloud.google.com/go v0.44.3 // indirect
 	github.com/Azure/azure-pipeline-go v0.2.2
 	github.com/Azure/azure-storage-blob-go v0.8.0
 	github.com/Azure/go-ansiterm v0.0.0-20170929234023-d6e3b3328b78
@@ -19,10 +18,8 @@ require (
 	github.com/dropbox/dropbox-sdk-go-unofficial v5.4.0+incompatible
 	github.com/goftp/file-driver v0.0.0-20180502053751-5d604a0fc0c9 // indirect
 	github.com/goftp/server v0.0.0-20190712054601-1149070ae46b
-	github.com/google/go-cmp v0.3.1 // indirect
 	github.com/google/go-querystring v1.0.0 // indirect
 	github.com/gopherjs/gopherjs v0.0.0-20190812055157-5d271430af9f // indirect
-	github.com/hashicorp/golang-lru v0.5.3 // indirect
 	github.com/jlaffaye/ftp v0.0.0-20190721194432-7cd8b0bcf3fc
 	github.com/jzelinskie/whirlpool v0.0.0-20170603002051-c19460b8caa6
 	github.com/kardianos/osext v0.0.0-20190222173326-2bc1f35cddc0 // indirect
@@ -39,8 +36,8 @@ require (
 	github.com/onsi/ginkgo v1.9.0 // indirect
 	github.com/onsi/gomega v1.6.0 // indirect
 	github.com/patrickmn/go-cache v2.1.0+incompatible
-	github.com/pkg/errors v0.8.1
-	github.com/pkg/sftp v1.10.1
+	github.com/pkg/errors v0.9.1
+	github.com/pkg/sftp v1.13.1
 	github.com/putdotio/go-putio v0.0.0-20190822121956-19b9c636c877
 	github.com/rfjakob/eme v0.0.0-20171028163933-2222dbd4ba46
 	github.com/sevlyar/go-daemon v0.1.5
@@ -50,23 +47,22 @@ require (
 	github.com/smartystreets/goconvey v0.0.0-20190731233626-505e41936337 // indirect
 	github.com/spf13/cobra v0.0.5
 	github.com/spf13/pflag v1.0.3
-	github.com/stretchr/testify v1.4.0
+	github.com/stretchr/testify v1.8.1
 	github.com/t3rm1n4l/go-mega v0.0.0-20190528125457-55e675378686
 	github.com/xanzy/ssh-agent v0.2.1
 	github.com/youmark/pkcs8 v0.0.0-20181201043747-70daafe5d78a
 	github.com/yunify/qingstor-sdk-go/v3 v3.0.2
 	go.etcd.io/bbolt v1.3.3 // indirect
-	golang.org/x/crypto v0.0.0-20190820162420-60c769a6c586
-	golang.org/x/net v0.0.0-20190813141303-74dc4d7220e7
-	golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45
-	golang.org/x/sync v0.0.0-20190423024810-112230192c58
-	golang.org/x/sys v0.0.0-20190826163724-acd9dae8e8cc
-	golang.org/x/text v0.3.2
-	golang.org/x/time v0.0.0-20190308202827-9d24e82272b4
-	google.golang.org/api v0.9.0
-	google.golang.org/genproto v0.0.0-20190819201941-24fa4b261c55 // indirect
-	google.golang.org/grpc v1.23.0 // indirect
-	gopkg.in/yaml.v2 v2.2.2
+	golang.org/x/crypto v0.0.0-20211108221036-ceb1ce70b4fa
+	golang.org/x/net v0.5.0
+	golang.org/x/oauth2 v0.4.0
+	golang.org/x/sync v0.1.0
+	golang.org/x/sys v0.4.0
+	golang.org/x/text v0.6.0
+	golang.org/x/time v0.1.0
+	google.golang.org/api v0.103.0
+	google.golang.org/grpc v1.53.0 // indirect
+	gopkg.in/yaml.v2 v2.2.3
 )
 
 go 1.13
